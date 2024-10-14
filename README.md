@@ -1,11 +1,6 @@
 # Hello World (from Membrane)
 
-This program scratches the surface of what you can do with Membrane. It:
-
-1. Sends you an email when you invoke the `run` action
-2. Saves and displays hits on the program's [HTTP endpoint](https://docs.membrane.io/features/endpoints/)
-
-Start by opening up [index.ts](./index.ts) and following code comment instructions.
+This program scratches the surface of what you can do with Membrane. Start by opening up [index.ts](./index.ts) and following code comment instructions.
 
 ## What's next?
 
