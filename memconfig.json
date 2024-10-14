@@ -1,0 +1,19 @@
+{
+  "schema": {
+    "types": [
+      {
+        "name": "Root",
+        "description": "A simple hello world program that sends you an email and deploys a hit counter website.",
+        "actions": [
+          {
+            "name": "run",
+            "type": "Void"
+          }
+        ]
+      }
+    ]
+  },
+  "dependencies": {
+    "email": "email:"
+  }
+}
