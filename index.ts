@@ -12,5 +12,3 @@ export async function endpoint({ method, path, body, headers, query }) {
   state.hits++;
   return `Visitors: ${state.hits}`;
 }
-
-// Congrats on your first Membrane program! 🎉
