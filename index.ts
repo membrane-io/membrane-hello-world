@@ -8,7 +8,7 @@ export async function run() {
   await nodes.email.send({ subject: "Welcome to Membrane", body: "👋" });
 }
 
-// Click `Open Endpoint URL ↗` (above fn signature), then check Logs and state (bottom left)
+// Click `Open Preview` (above fn signature), then check Logs and state (bottom left)
 export async function endpoint({ method, path, body, headers, query }) {
   // `state` is like a little db for your program
   if (!state.hits) state.hits = 0;
