@@ -6,7 +6,7 @@
         "description": "A simple hello world program that sends you an email and deploys a hit counter website.",
         "actions": [
           {
-            "name": "run",
+            "name": "welcome",
             "type": "Void"
           }
         ]
@@ -14,6 +14,6 @@
     ]
   },
   "dependencies": {
-    "email": "email:"
+    "email": "sys-email:"
   }
 }
